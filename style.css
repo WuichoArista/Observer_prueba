@@ -1,0 +1,26 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado{
+    width: 25vw;
+    height: 50vh;
+    background-color: red;
+    transform: translateX(4rem);
+    transition: all 1s;
+    opacity: 0;
+
+}
+
+.cuadrado_dos{
+    width: 25vw;
+    height: 50vh;
+    background-color: red;
+    transform: translateX(-4rem);
+    transition: all 1s;
+    opacity: 0;
+
+}
